@@ -14,9 +14,10 @@ namespace _1tedenBLAZ
             return numbers.Sum();
         }
 
-        public static int Sub(int mainValue, params int[] numbers)
+        public static int Sub(params int[] numbers)
         {
-            int final = mainValue;
+            if(numbers.Length == 0) return 0;
+            int final = numbers[0];
             for (int i = 0; i < numbers.Length; i++)
             {
                 final -= numbers[i];
@@ -26,6 +27,7 @@ namespace _1tedenBLAZ
 
         public static int Multiply(params int[] numbers)
         {
+            if (numbers.Length == 0) return 0;
             int final = 1;
             for (int i = 0; i < numbers.Length; i++)
             {
@@ -36,6 +38,7 @@ namespace _1tedenBLAZ
 
         public static int Divide(params int[] numbers)
         {
+            if (numbers.Length == 0) return 0;
             int final = numbers[0];
             for (int i = 1; i < numbers.Length; i++)
             {
