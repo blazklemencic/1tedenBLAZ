@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Numerics;
 
 namespace _2tedenBLAZ_CALC
 {
@@ -15,7 +10,15 @@ namespace _2tedenBLAZ_CALC
 
             for (int i = 1; i < numbers.Length; i++)
             {
-                sum += numbers[i];
+                try
+                {
+                    sum += numbers[i];
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Exception occured while SUMMING {ex}");
+                    return T.Zero;
+                }
             }
 
             return sum;
@@ -27,7 +30,15 @@ namespace _2tedenBLAZ_CALC
             T final = numbers[0];
             for (int i = 1; i < numbers.Length; i++)
             {
-                final -= numbers[i];
+                try
+                {
+                    final -= numbers[i];
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Exception occured while SUBSTRACTING {ex}");
+                    return T.Zero;
+                }
             }
             return final;
         }
@@ -38,7 +49,16 @@ namespace _2tedenBLAZ_CALC
             T final = numbers[0];
             for (int i = 1; i < numbers.Length; i++)
             {
-                final *= numbers[i];
+                try
+                {
+                    final *= numbers[i];
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Exception occured while MULTIPLYING {ex}");
+                    return T.Zero;
+                }
+                
             }
             return final;
         }
@@ -54,7 +74,12 @@ namespace _2tedenBLAZ_CALC
                     Console.WriteLine("You can't divide by zero dummy");
                     return T.Zero;
                 }
+                try { 
                 final /= numbers[i];
+                } catch (Exception ex) {
+                    Console.WriteLine($"Exception occured while DIVIDING {ex}");
+                    return T.Zero;
+                }
             }
             return final;
         }

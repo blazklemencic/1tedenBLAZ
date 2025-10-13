@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentifikacijaOsebe", "Iden
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2tedenBLAZ_CALC", "2tedenBLAZ_CALC\2tedenBLAZ_CALC.csproj", "{FFD9B4B3-817F-4C5C-9D67-E02087E75A91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2tedenBLAZ_pozdravi_prijatelje", "2tedenBLAZ_pozdravi_prijatelje\2tedenBLAZ_pozdravi_prijatelje.csproj", "{691D1152-6BB0-42A5-837C-27E1456AB923}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FFD9B4B3-817F-4C5C-9D67-E02087E75A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFD9B4B3-817F-4C5C-9D67-E02087E75A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFD9B4B3-817F-4C5C-9D67-E02087E75A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691D1152-6BB0-42A5-837C-27E1456AB923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691D1152-6BB0-42A5-837C-27E1456AB923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691D1152-6BB0-42A5-837C-27E1456AB923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691D1152-6BB0-42A5-837C-27E1456AB923}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
