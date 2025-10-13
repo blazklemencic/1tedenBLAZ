@@ -55,11 +55,6 @@
             Console.Out.WriteLine(f);
             Console.Out.WriteLine(i);
 
-            Console.WriteLine(CALC.Multiply(5, 5, 5));
-            Console.WriteLine(CALC.Sum(2154, 42, 1, 421, 32, 54, 66, 3, 75));
-            Console.WriteLine(CALC.Sub(5, 6, 7, 77));
-            Console.WriteLine(CALC.Divide(64, 8));
-
             Console.In.ReadLine();
         }
 
