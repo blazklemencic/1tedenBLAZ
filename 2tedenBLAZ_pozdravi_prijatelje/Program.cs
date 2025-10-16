@@ -12,7 +12,7 @@
             }
         }
 
-        static void PozdraviPrijatelja(string ime)
+        private static void PozdraviPrijatelja(string ime)
         {
             Console.WriteLine($"Hej, {ime}. Kako si?");
         }
