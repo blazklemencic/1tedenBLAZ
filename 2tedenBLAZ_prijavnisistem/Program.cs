@@ -28,7 +28,7 @@ namespace _2tedenBLAZ_prijavnisistem
 
         static void Login(string? username, string? password)
         {
-            if(username == null) {
+            if (username == null) {
                 return;
             }
             bool obstaja = users.TryGetValue(username, out string? value);
@@ -36,6 +36,10 @@ namespace _2tedenBLAZ_prijavnisistem
             {
                 Console.WriteLine($"uporabnik {username} ne obstaja");
                 return;
+            }
+            if (value == null || password == null)
+            {
+                throw new Exception();
             }
             string[] valuee = value.Split("|-|-|");
             if(VerifyPassword(password, valuee[0], Convert.FromBase64String(valuee[1]))) {

@@ -81,6 +81,11 @@ namespace _2tedenBLAZ_CALC
                 throw new DivideByZeroException();
             }
 
+            if (equation == null)
+            {
+                throw new Exception();
+            }
+
             foreach (string eq in equation.Split())
             {
                 bool e = double.TryParse(eq, out double value);
