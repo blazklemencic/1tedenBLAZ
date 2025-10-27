@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3tedenBLAZ_nesodihdo10", "3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3tedenBLAZ_programzauciteljapovprecneocene", "3tedenBLAZ_programzauciteljapovprecneocene\3tedenBLAZ_programzauciteljapovprecneocene.csproj", "{412215A0-5300-4ABA-B27D-15A96BD96516}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4tedenBLAZ_napake", "4tedenBLAZ_napake\4tedenBLAZ_napake.csproj", "{FC0DA51D-52CD-4FE9-A904-924783AA949B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4tedenBLAZ_vremenskaevidenca", "4tedenBLAZ_vremenskaevidenca\4tedenBLAZ_vremenskaevidenca.csproj", "{762C0390-0E04-4192-AE23-E612405B3EE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{412215A0-5300-4ABA-B27D-15A96BD96516}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{412215A0-5300-4ABA-B27D-15A96BD96516}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{412215A0-5300-4ABA-B27D-15A96BD96516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC0DA51D-52CD-4FE9-A904-924783AA949B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0DA51D-52CD-4FE9-A904-924783AA949B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0DA51D-52CD-4FE9-A904-924783AA949B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0DA51D-52CD-4FE9-A904-924783AA949B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762C0390-0E04-4192-AE23-E612405B3EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762C0390-0E04-4192-AE23-E612405B3EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762C0390-0E04-4192-AE23-E612405B3EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762C0390-0E04-4192-AE23-E612405B3EE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
