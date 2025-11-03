@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4tedenBLAZ_napake", "4teden
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4tedenBLAZ_vremenskaevidenca", "4tedenBLAZ_vremenskaevidenca\4tedenBLAZ_vremenskaevidenca.csproj", "{762C0390-0E04-4192-AE23-E612405B3EE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5tedentBLAZ_lokokvij", "5tedentBLAZ_lokokvij\5tedentBLAZ_lokokvij.csproj", "{EE6BD443-DB8E-47EC-A8C8-DC35CC59425D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{762C0390-0E04-4192-AE23-E612405B3EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{762C0390-0E04-4192-AE23-E612405B3EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{762C0390-0E04-4192-AE23-E612405B3EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6BD443-DB8E-47EC-A8C8-DC35CC59425D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6BD443-DB8E-47EC-A8C8-DC35CC59425D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6BD443-DB8E-47EC-A8C8-DC35CC59425D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6BD443-DB8E-47EC-A8C8-DC35CC59425D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
