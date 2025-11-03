@@ -29,7 +29,7 @@ namespace _5tedentBLAZ_lokokvij
                 int ocena = IzracunOcene(tocke);
                 if (ocena == 0)
                 {
-                    Console.WriteLine("Stevilo tock je preveliko");
+                    Console.WriteLine("Stevilo tock je premajhni");
                     continue;
                 }
                 Console.WriteLine($"ocena je {ocena}");
