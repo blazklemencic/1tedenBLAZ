@@ -3,45 +3,51 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1tedenBLAZ", "1tedenBLAZ\1tedenBLAZ.csproj", "{56E59F7B-84A0-4906-AC90-59C0577B9D7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1teden", "1tedenBLAZ\1teden.csproj", "{56E59F7B-84A0-4906-AC90-59C0577B9D7F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentifikacijaOsebe", "IdentifikacijaOsebe\IdentifikacijaOsebe.csproj", "{667393BE-065E-43E9-9034-EE4C1E756AA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2tedenBLAZ_CALC", "2tedenBLAZ_CALC\2tedenBLAZ_CALC.csproj", "{FFD9B4B3-817F-4C5C-9D67-E02087E75A91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2teden_CALC", "2tedenBLAZ_CALC\2teden_CALC.csproj", "{FFD9B4B3-817F-4C5C-9D67-E02087E75A91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2tedenBLAZ_pozdravi_prijatelje", "2tedenBLAZ_pozdravi_prijatelje\2tedenBLAZ_pozdravi_prijatelje.csproj", "{691D1152-6BB0-42A5-837C-27E1456AB923}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2teden_pozdravi_prijatelje", "2tedenBLAZ_pozdravi_prijatelje\2teden_pozdravi_prijatelje.csproj", "{691D1152-6BB0-42A5-837C-27E1456AB923}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2tedenBLAZ_sodoliho", "2tedenBLAZ_sodoliho\2tedenBLAZ_sodoliho.csproj", "{3CD59874-CC1F-4F2B-A0BA-F3503019957C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2teden_sodoliho", "2tedenBLAZ_sodoliho\2teden_sodoliho.csproj", "{3CD59874-CC1F-4F2B-A0BA-F3503019957C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2tedenBLAZ_ocenestudentov", "2tedenBLAZ_ocenestudentov\2tedenBLAZ_ocenestudentov.csproj", "{76D0C040-FCBF-407A-93E7-97AEFE77E0F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2teden_ocenestudentov", "2tedenBLAZ_ocenestudentov\2teden_ocenestudentov.csproj", "{76D0C040-FCBF-407A-93E7-97AEFE77E0F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2tedenBLAZ_prijavnisistem", "2tedenBLAZ_prijavnisistem\2tedenBLAZ_prijavnisistem.csproj", "{60A5903C-8204-4AB1-BE3A-D5123B429F90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2teden_prijavnisistem", "2tedenBLAZ_prijavnisistem\2teden_prijavnisistem.csproj", "{60A5903C-8204-4AB1-BE3A-D5123B429F90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3tedenBLAZ_najboljsiigralec", "3tedenBLAZ_najboljsiigralec\3tedenBLAZ_najboljsiigralec.csproj", "{4720E30A-5EC6-4B00-978E-F9D16139E4B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3teden_najboljsiigralec", "3tedenBLAZ_najboljsiigralec\3teden_najboljsiigralec.csproj", "{4720E30A-5EC6-4B00-978E-F9D16139E4B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3tedenBLAZ_temperaturacheck", "3tedenBLAZ_temperaturacheck\3tedenBLAZ_temperaturacheck.csproj", "{49690785-BF17-4748-B888-4546334FE046}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3teden_temperaturacheck", "3tedenBLAZ_temperaturacheck\3teden_temperaturacheck.csproj", "{49690785-BF17-4748-B888-4546334FE046}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3tedenBLAZ_sodedo20", "3tedenBLAZ_sodedo20\3tedenBLAZ_sodedo20.csproj", "{A090A149-2B08-46AE-A0B9-B00205F59273}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3teden_sodedo20", "3tedenBLAZ_sodedo20\3teden_sodedo20.csproj", "{A090A149-2B08-46AE-A0B9-B00205F59273}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3tedenBLAZ_ljudjevavtobusu", "3tedenBLAZ_ljudjevavtobusu\3tedenBLAZ_ljudjevavtobusu.csproj", "{58F4D6B7-3446-45E1-8550-BF2D26498B21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3teden_ljudjevavtobusu", "3tedenBLAZ_ljudjevavtobusu\3teden_ljudjevavtobusu.csproj", "{58F4D6B7-3446-45E1-8550-BF2D26498B21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3tedenBLAZ_minus3do3", "3tedenBLAZ_minus3do3\3tedenBLAZ_minus3do3.csproj", "{CC31048B-49D9-4BA5-92F5-58241E629016}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3teden_minus3do3", "3tedenBLAZ_minus3do3\3teden_minus3do3.csproj", "{CC31048B-49D9-4BA5-92F5-58241E629016}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3tedenBLAZ_nesodihdo10", "3tedenBLAZ_nesodihdo10\3tedenBLAZ_nesodihdo10.csproj", "{FDB4FBB9-7D46-4043-BA29-0A0D7410A39A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3teden_nesodihdo10", "3tedenBLAZ_nesodihdo10\3teden_nesodihdo10.csproj", "{FDB4FBB9-7D46-4043-BA29-0A0D7410A39A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3tedenBLAZ_programzauciteljapovprecneocene", "3tedenBLAZ_programzauciteljapovprecneocene\3tedenBLAZ_programzauciteljapovprecneocene.csproj", "{412215A0-5300-4ABA-B27D-15A96BD96516}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3teden_programzauciteljapovprecneocene", "3tedenBLAZ_programzauciteljapovprecneocene\3teden_programzauciteljapovprecneocene.csproj", "{412215A0-5300-4ABA-B27D-15A96BD96516}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4tedenBLAZ_napake", "4tedenBLAZ_napake\4tedenBLAZ_napake.csproj", "{FC0DA51D-52CD-4FE9-A904-924783AA949B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4teden_napake", "4tedenBLAZ_napake\4teden_napake.csproj", "{FC0DA51D-52CD-4FE9-A904-924783AA949B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4tedenBLAZ_vremenskaevidenca", "4tedenBLAZ_vremenskaevidenca\4tedenBLAZ_vremenskaevidenca.csproj", "{762C0390-0E04-4192-AE23-E612405B3EE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4teden_vremenskaevidenca", "4tedenBLAZ_vremenskaevidenca\4teden_vremenskaevidenca.csproj", "{762C0390-0E04-4192-AE23-E612405B3EE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5tedentBLAZ_lokokvij", "5tedentBLAZ_lokokvij\5tedentBLAZ_lokokvij.csproj", "{EE6BD443-DB8E-47EC-A8C8-DC35CC59425D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5tedent_lokokvij", "5tedentBLAZ_lokokvij\5tedent_lokokvij.csproj", "{EE6BD443-DB8E-47EC-A8C8-DC35CC59425D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6tedenBLAZ_introducemyself", "6tedenBLAZ_introducemyself\6tedenBLAZ_introducemyself.csproj", "{C584A254-D33D-46C1-9F5A-A073A1934979}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6teden_introducemyself", "6tedenBLAZ_introducemyself\6teden_introducemyself.csproj", "{C584A254-D33D-46C1-9F5A-A073A1934979}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6tedenBLAZ_Phone", "6tedenBLAZ_Phone\6tedenBLAZ_Phone.csproj", "{12E6501C-15F9-4894-AED5-D2B23E26E425}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6teden_Phone", "6tedenBLAZ_Phone\6teden_Phone.csproj", "{12E6501C-15F9-4894-AED5-D2B23E26E425}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6tedenBLAZ_imepriimekbarva", "imepriimekbarva\6tedenBLAZ_imepriimekbarva.csproj", "{8CCA4409-7F32-40C9-BF54-03170370D1A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6teden_imepriimekbarva", "imepriimekbarva\6teden_imepriimekbarva.csproj", "{8CCA4409-7F32-40C9-BF54-03170370D1A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7teden_radiotvdedovanje", "7tedenBLAZ_t\7teden_radiotvdedovanje.csproj", "{BAE7A032-5A04-4C29-AE4B-02E5639468FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7teden_zival", "7tedenBLAZ_zival\7teden_zival.csproj", "{FCB8FB82-FEBB-443F-925B-D15013C47404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7teden_najdiSkritiStavek", "7teden_employeeCompanycar\7teden_najdiSkritiStavek.csproj", "{C2F54B2B-7612-4E27-A097-BF7F6DC1BAF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +135,18 @@ Global
 		{8CCA4409-7F32-40C9-BF54-03170370D1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CCA4409-7F32-40C9-BF54-03170370D1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CCA4409-7F32-40C9-BF54-03170370D1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE7A032-5A04-4C29-AE4B-02E5639468FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE7A032-5A04-4C29-AE4B-02E5639468FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE7A032-5A04-4C29-AE4B-02E5639468FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE7A032-5A04-4C29-AE4B-02E5639468FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB8FB82-FEBB-443F-925B-D15013C47404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB8FB82-FEBB-443F-925B-D15013C47404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB8FB82-FEBB-443F-925B-D15013C47404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB8FB82-FEBB-443F-925B-D15013C47404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F54B2B-7612-4E27-A097-BF7F6DC1BAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F54B2B-7612-4E27-A097-BF7F6DC1BAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F54B2B-7612-4E27-A097-BF7F6DC1BAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F54B2B-7612-4E27-A097-BF7F6DC1BAF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
