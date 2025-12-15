@@ -1,0 +1,28 @@
+﻿<Window x:Class="ZaposleniPlace.PlaceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZaposleniPlace"
+        mc:Ignorable="d"
+        Title="PlaceWindow" Height="450" Width="800">
+    <Grid Margin="0,0,-24,0">
+        <ComboBox ItemsSource="{Binding Source={x:Static local:ZaposlenViewModel.Zaposleni}}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedZaposlen}" Margin="87,84,400,322" SelectionChanged="ComboBox_SelectionChanged" Width="320" Height="30"></ComboBox>
+
+        <TextBox Name="dodatek_txt" TextChanged="dodatek_txt_TextChanged" Text="dodatek v %" Margin="87,141,556,261" Width="160" Height="30"></TextBox>
+        <TextBox x:Name="prispevki_txt" TextChanged="prispevki_txt_TextChanged" Text="prispevki v %" Margin="87,185,556,217" Width="160" Height="30" />
+        <TextBox x:Name="davek_txt" TextChanged="davek_txt_TextChanged" Text="davek v %" Margin="87,233,556,169" Width="160" Height="30"/>
+
+        <TextBlock Text="bruto" Margin="340,144,400,261" Width="60" Height="30"/>
+        <TextBlock Text="dodatki" Margin="340,188,400,217" Width="60" Height="30"/>
+        <TextBlock Text="prispevki" Margin="340,234,400,170" Width="60" Height="30"/>
+        <TextBlock Text="davek" Margin="352,269,412,135" Width="60" Height="30"/>
+        <TextBlock Text="neto" Margin="340,303,400,102" Width="60" Height="30"/>
+
+        <TextBlock Name="calc_bruto" Margin="417,142,247,262" Width="160" Height="30"/>
+        <TextBlock Name="calc_dodatki" Margin="417,186,247,218" Width="160" Height="30"/>
+        <TextBlock Name="calc_prispevki" Margin="417,234,247,170" Width="160" Height="30"/>
+        <TextBlock Name="calc_davek" Margin="417,267,247,137" Width="160" Height="30"/>
+        <TextBlock Name="calc_neto" Margin="417,302,247,102" Width="160" Height="30"/>
+    </Grid>
+</Window>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="ZaposleniPlace.Zaposleni"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZaposleniPlace"
+        mc:Ignorable="d"
+        Title="Zaposleni" Height="450" Width="800">
+    <Grid>
+        <ListView Name="UserGrid" Margin="10,10,10,58" ItemsSource="{Binding Zaposleni}">
+            <ListView.View>
+                <GridView x:Name="grdTest">
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" Width="160"/>
+                    <GridViewColumn Header="Age" DisplayMemberBinding="{Binding Age}" Width="80"/>
+                    <GridViewColumn Header="Salary" DisplayMemberBinding="{Binding Salary}" Width="160"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <Button Name="obrplac_btn" Margin="636,381,10,24" Content="Obracun plac" Click="obrplac_btn_Click" />
+    </Grid>
+</Window>
